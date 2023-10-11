@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    border: 0px solid blue;
+    border: 0px solid red;
   }
 
 body {
@@ -166,4 +166,40 @@ body {
     text-align: center;
     font-size: 17px;
     color: grey;
+}
+
+/* Testimonial section styles */
+
+.testimonial-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonial-item{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-item-paragraph{
+    font-size: 34px;
+    font-style: italic;
+    font-weight: normal; 
+    color: #1f2937;
+    padding-bottom: 10px;
+}
+
+.testimonial-item-signature{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    padding-right: 20px;
 }
